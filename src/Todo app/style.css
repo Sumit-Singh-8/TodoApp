@@ -1,0 +1,79 @@
+body {
+  background: yellowgreen;
+}
+
+.heading {
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+
+.cont {
+  text-align: center;
+}
+
+.form-label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-control {
+  width: 100%;
+  height: 50px;
+  margin: 10px auto;
+}
+
+.list {
+  position: relative;
+  width: 52%;
+  background: burlywood;
+  margin: auto;
+}
+
+.icon:hover {
+  color: rgb(0, 80, 230);
+  cursor: pointer;
+}
+
+.icon {
+  position: absolute;
+  top: 11px;
+  right: 14px;
+  font-size: 26px;
+}
+
+.removed:hover {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+.removed {
+  position: absolute;
+  top: 13px;
+  right: 16px;
+  font-size: 26px;
+}
+
+.editd:hover {
+  color: rgb(0, 180, 15);
+  cursor: pointer;
+}
+
+.editd {
+  position: absolute;
+  top: 12px;
+  right: 45px;
+  font-size: 26px;
+}
+
+.showItems {
+  background: royalblue;
+  width: 50%;
+  border-radius: 5px;
+  padding: 12px 15px;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  margin: 15px auto;
+}
